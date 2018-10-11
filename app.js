@@ -136,7 +136,7 @@ function handleMessage(sender_psid, received_message) {
        response = {
             "text": `You sent the message: "${received_message.text}".`
        }
-  
+    }
      // Send the response message
       callSendAPI(sender_psid, response);  
   }  
