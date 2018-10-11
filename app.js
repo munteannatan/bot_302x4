@@ -107,7 +107,7 @@ function handleMessage(sender_psid, received_message) {
   if (received_message.text) {    
     // Create the payload for a basic text message, which
     // will be added to the body of our request to the Send API
-    if (received_message.text == "/help") {
+    if (received_message.text) {
       response = {
         "help_menu": {
           "type": "template",
@@ -132,7 +132,7 @@ function handleMessage(sender_psid, received_message) {
           }
         }
       }
-    } else if (received_message.text[0] == '/'){
+    } else if (received_message.text[0] == "/"){
        response = {
             "text": `You sent the message: "${received_message.text}".`
        }
