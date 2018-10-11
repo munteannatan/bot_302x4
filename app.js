@@ -132,7 +132,7 @@ function handleMessage(sender_psid, received_message) {
       }
     }
     
-  } else if (received_message.text[0] == "/") {  {
+  } else if (received_message.text) {  {
     // Get the URL of the message attachment
     response = {
       "text": `You sent the message: "${received_message.text}".`
