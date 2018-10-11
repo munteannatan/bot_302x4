@@ -115,14 +115,14 @@ function handleMessage(sender_psid, received_message) {
           "elements": [{
             "title": "Functionalities:",
             "subtitle": "Make your choice.",
-            "button1": [
+            "buttons": [
               {
                 "type": "postback",
                 "title": "name pending",
                 "payload": "yes",
               }
             ],
-            "button2": [
+            "buttons": [
               {
                 "type": "postback",
                 "title": "name pending",
