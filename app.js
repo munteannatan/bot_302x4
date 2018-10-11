@@ -113,8 +113,8 @@ function handleMessage(sender_psid, received_message) {
         "payload": {
           "template_type": "generic",
           "elements": [{
-            "title": "Is this the right picture?",
-            "subtitle": "Tap a button to answer.",
+            "title": "Functionalities:",
+            "subtitle": "Make your choice.",
             "buttons": [
               {
                 "type": "postback",
