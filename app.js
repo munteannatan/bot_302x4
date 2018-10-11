@@ -108,22 +108,24 @@ function handleMessage(sender_psid, received_message) {
     // Create the payload for a basic text message, which
     // will be added to the body of our request to the Send API
     response = {
-      "attachment": {
+      "help_menu": {
         "type": "template",
         "payload": {
           "template_type": "generic",
           "elements": [{
-            "title": "Is this the right picture?",
-            "subtitle": "Tap a button to answer.",
-            "buttons": [
+            "title": "Functionalities:",
+            "subtitle": "Make your choice.",
+            "button1": [
               {
                 "type": "postback",
-                "title": "Yes!",
+                "title": "name pending",
                 "payload": "yes",
-              },
+              }
+            ],
+            "button2": [
               {
                 "type": "postback",
-                "title": "No!",
+                "title": "name pending",
                 "payload": "no",
               }
             ],
