@@ -120,9 +120,7 @@ function handleMessage(sender_psid, received_message) {
                 "type": "postback",
                 "title": "name pending",
                 "payload": "yes",
-              }
-            ],
-            "buttons": [
+              },
               {
                 "type": "postback",
                 "title": "name pending",
