@@ -118,12 +118,12 @@ function handleMessage(sender_psid, received_message) {
             "buttons": [
               {
                 "type": "postback",
-                "title": "Yes!",
+                "title": "NAME PENDING...",
                 "payload": "yes",
               },
               {
                 "type": "postback",
-                "title": "No!",
+                "title": "NAME PENDING...",
                 "payload": "no",
               }
             ],
